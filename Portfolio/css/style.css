@@ -1,0 +1,149 @@
+@import url(./partials/_variables.css);
+
+@import url(./partials/_global.css);
+
+/* start nav */
+
+.header-area .main-menu .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.header-area .main-menu .navbar {
+    padding: 1 rem 20rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--poppins);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header-area .main-menu .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end nav */
+
+/* Banner Area */
+
+.site-main .site-banner {
+    background: url() no-repeat;
+    background-position: 0% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+padding-top: 35%;
+font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-img>img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/*  end Banner Area */
+
+/* Start About Me Area */
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span {
+    display: block;
+    font: normal bold 49px/ 60px var(--poppins);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph>p {
+    padding: .4rem 0;
+}
+
+/* End About Me Area */
+
+/* Start Projects Area */
+
+.site-main .project-area {
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--poppins);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button {
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project>.title h4 {
+    font: normal 700 25px/12px var(--poppins);
+}
+
+
+ /* ==== when adding images to projects, check that this is ok ======= */
+.site-main .project-area .grid .our-project .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* dont this this is working */
+.site-main .project-area .project-title .title-h1 {
+    font: normal bold 39px/40px var(--poppins),
+}
+
+/* End Projects Area */
+
+/* footer area */
+/* ===============================add image =========== */
+
+footer.footer-area {
+    padding: 5rem 0;
+    background: url() no-repeat;
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/ 30px var(--poppins),
+}
+
+footer.footer-area .social a > i {
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i {
+    color: var(--primary-color);
+}
+
+/* end footer area */
